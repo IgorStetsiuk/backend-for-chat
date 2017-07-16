@@ -26,7 +26,7 @@ response: created user object
  ___
  
 #### 2. Read 
-**GET /api/users HTTP 1.1 ** - show all users in database
+**GET /api/users HTTP 1.1** - show all users in database
 
 response :
   ```json
@@ -38,7 +38,7 @@ response :
  ...
 ```
 
-** GET /api/users/{user_id} HTTP 1.1 ** - show  user by specified id 
+**GET /api/users/{user_id} HTTP 1.1** - show  user by specified id 
 
 response : 
   ```json
@@ -80,7 +80,7 @@ ___
  #### 1. Create 
  **POST api/messages** HTTP 1.1 - create new message entity in *messages* collection
  
- response:
+ body:
  ```json
 {
 "receiverId":2,
@@ -89,6 +89,8 @@ ___
 "message_id":3
 }
 ```
+
+response : created message entity
  
  ___
  
