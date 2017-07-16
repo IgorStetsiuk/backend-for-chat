@@ -1,7 +1,7 @@
 ## Usage
  1. npm install
  2. node server.js
- 3. in console window run `mongod` than in another `mongo`
+ 3. in console window run `mongod` 
  3. open in browser localhost:3012
  
 ## API description
